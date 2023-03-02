@@ -32,7 +32,7 @@ public class PersonaController {
         return "La persona fue creada correctamente";
     }
     
-    @DeleteMapping("/persona/borrar/{id}")
+    @DeleteMapping("/personas/borrar/{id}")
     public String deletePersona(@PathVariable Long id){
         ipersonaService.deletePersona(id);
         return "La persona fue eliminada correctamente";
