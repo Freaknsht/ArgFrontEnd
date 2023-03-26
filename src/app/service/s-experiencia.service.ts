@@ -7,7 +7,8 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL= 'argbackend-production.up.railway.app/explab/'
+  expURL= 'https://argbackend-production.up.railway.app/explab/';
+  //expURL = 'https://localhost:8080/explab/';
 
   constructor(private httpCliente: HttpClient) { }
 

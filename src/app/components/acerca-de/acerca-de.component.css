@@ -2,18 +2,24 @@
   padding: 20px;
 }
 div{
-  background-color: #a1b5cb;
+  background-color: #6a737c9c;
   text-align: center;
 }
 /*estilo de la foto de perfil*/
 @media (min-width: 576px){
   #fotodeperfil{
-    position: absolute;
-    width: 10%;
+    /*position: absolute;
+    width: 10%;*/
     border-radius: 100%;
     box-shadow: 3px 3px 3px grey;
-    left: 5%;
-    top: 600px;
+    /*left: 5%;
+    top: 600px;*/
+  }
+
+  .descrip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 575px){
@@ -33,3 +39,6 @@ div{
   margin-top: 5%;
 }
 
+.botEdit{
+
+}
